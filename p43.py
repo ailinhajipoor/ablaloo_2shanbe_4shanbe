@@ -1,0 +1,13 @@
+a=input("what's your name ?")
+b=input("what's your last name ?")
+c=input("tell me something about yourself ?")
+filename=a+".txt"
+f=open(filename,"a")
+f.write(a)
+f.write("\n")
+f.write(b)
+f.write("\n")
+f.write("----------------")
+f.write("\n")
+f.write(c)
+f.close()
